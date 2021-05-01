@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Leader Board</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="#"><img class="brand-logo" src="image/icon/logo.png" alt=""></a>
+                <h3 class="icon-text">Idea</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <img src="image/photos/Ellipse.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mx-auto">
+        <section class="container-fluid top-section mt-4">
+            <div class="top-player">
+                <h3>Top Player</h3>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                        <img src="image/photos/Ellipse.png" alt="">
+                        <P class="ps-3">Graeme Smith</P>
+                    </div>
+                    <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                        <img src="image/photos/Ellipse-1.png" alt="">
+                        <P class="ps-3">Herschelle Gibbs</P>
+                    </div>
+                    <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                        <img src="image/photos/Ellipse-2.png" alt="">
+                        <P class="ps-3">AB De Villiers</P>
+                    </div>
+                    <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                        <img src="image/photos/Ellipse-3.png" alt="">
+                        <P class="ps-3">Jp Duminy</P>
+                    </div>
+                    <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                        <img src="image/photos/Ellipse-4.png" alt="">
+                        <P class="ps-3">Jacques Kallis</P>
+                    </div>
+                    <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
+                        <img src="image/photos/Ellipse-5.png" alt="">
+                        <P class="ps-3">Mark Boucher</P>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="top-blog">
+                <h3>Top blog</h3>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 blog d-flex p-3 align-items-center">
+                        <img src="image/blogs/blog1.png" alt="">
+                        <div class="ps-3">
+                            <h4>13 of My Favorite UX/UI Goodies</h4>
+                            <small class="text-primary"><span class="text-secondary">By</span> Danny Sapio</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 blog d-flex p-3 align-items-center">
+                        <img src="image/blogs/blog2.png" alt="">
+                        <div class="ps-3">
+                            <h4>UI cheat sheet: list by grid</h4>
+                            <small class="text-primary"><span class="text-secondary">By</span> Tass Gadd</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 blog d-flex p-3 align-items-center">
+                        <img src="image/blogs/blog3.png" alt="">
+                        <div class="ps-3">
+                            <h4>7 typography tips for interface design</h4>
+                            <small class="text-primary"><span class="text-secondary">By</span> Jeremiah Lam</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 blog d-flex p-3 align-items-center">
+                        <img src="image/blogs/blog4.png" alt="">
+                        <div class="ps-3">
+                            <h4>Your logo is copied</h4>
+                            <small class="text-primary"><span class="text-secondary">By</span> Ferdinand Vogler</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom-section container-fluid my-3">
+            <h3>Late Courses</h3>
+            <div class="courses pb-3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 p-2">
+                            <img src="image/courses/courses1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">React - The complete Guide 2021</h5>
+                                <p class="card-text"><small class="instructor">Read krakoff</small></p>
+                                <div class="row">
+                                    <div class="rating col-md-6 d-flex align-items-center">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img class="progress-1" src="image/icon/rating.png" alt="">
+                                        <small class="ps-1 text-secondary">4.5</small>
+                                    </div>
+                                    <div class="time col-md-6 d-flex align-items-center">
+                                        <img src="image/icon/time.png" alt="">
+                                        <small class="ps-1">1:30 hr</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 p-2">
+                            <img src="image/courses/courses2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PowerPoint 2021 master PowerPoint courses</h5>
+                                <p class="card-text"><small class="instructor">Walter scott</small></p>
+                                <div class="row">
+                                    <div class="rating col-md-6 d-flex align-items-center">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img class="progress-2" src="image/icon/rating.png" alt="">
+                                        <small class="ps-1 text-secondary">4.3</small>
+                                    </div>
+                                    <div class="time col-md-6 d-flex align-items-center">
+                                        <img src="image/icon/time.png" alt="">
+                                        <small class="ps-1">1:20 hr</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 p-2">
+                            <img src="image/courses/courses3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The complete javascript courses 2021</h5>
+                                <p class="card-text"><small class="instructor">Read krakoff</small></p>
+                                <div class="row">
+                                    <div class="rating col-md-6 d-flex align-items-center">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img src="image/icon/rating.png" alt="">
+                                        <img class="progress-3" src="image/icon/rating.png" alt="">
+                                        <small class="ps-1 text-secondary">4.5</small>
+                                    </div>
+                                    <div class="time col-md-6 d-flex align-items-center">
+                                        <img src="image/icon/time.png" alt="">
+                                        <small class="ps-1">1:30 hr</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

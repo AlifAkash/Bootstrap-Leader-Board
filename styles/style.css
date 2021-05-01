@@ -1,0 +1,74 @@
+body{
+    background-color: #F3F1FF;
+}
+
+.nav-container{
+    max-width: 875px;
+}
+
+.navbar img{
+    width: 40px;
+}
+
+.player img{
+    width: 56px;
+}
+
+.icon-text{
+    color: #F3F1FF;
+}
+
+main{
+    max-width: 870px;
+}
+
+.top-section{
+    background-color: white;
+}
+
+.top-section hr{
+    border: 1px solid #D1D1D1;
+}
+
+.blog img{
+    width: 177px;
+}
+
+.bottom-section{
+    background-color: white;
+}
+
+.instructor{
+    color: #ED6B4F;
+}
+
+.rating{
+    background-color: ;
+}
+
+.rating img{
+    width: 10px;
+}
+
+.time img{
+    width: 20px;
+}
+
+.time{
+    width: 95px;
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    color: #FF4A60;
+}
+
+.progress-2{
+    filter: opacity(30%);
+}
+
+.progress-1{
+    filter: opacity(50%);
+}
+
+.progress-3{
+    filter: opacity(50%);
+}
